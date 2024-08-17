@@ -1,0 +1,12 @@
+def factorial(n):
+    """
+    Эта функция возвращает факториал числа n.
+    """
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return n * factorial(n-1)
+
+# Пример использования
+number = 5
+print(f"Факториал числа {number} равен {factorial(number)}")
